@@ -3,7 +3,7 @@
 
 ## Minikube Reflection
 ###  Compare the application logs before and after you exposed it as a Service. Try to open the app several times while the proxy into the Service is running. What do you see in the logs? Does the number of logs increase each time you open the app?
-<img src="image-1.png">
+<img src="image1.png">
 
 Every time I open the app, it logs a GET request in the HTTP protocol. This count doubles each time I use the app because of the direct interaction with it.
 
